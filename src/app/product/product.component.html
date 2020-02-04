@@ -1,0 +1,66 @@
+<!--================Category Product Area =================-->
+<section class="cat_product_area section_gap" >
+  <div class="container-fluid">
+    <div class="row flex-row-reverse">
+      <div class="col-lg-12">
+        <div class="product_top_bar">
+          <div class="left_dorp">
+           <span style="    color: #000000; font-size: 14px;font-weight: 700;">
+            {{ title }}
+          </span> 
+            <span style="color: #999999; background: transparent; line-height: 30px;">
+            {{ section }}
+          </span>
+          </div>
+          <div class="right_page ml-auto">
+            <nav class="cat_page" aria-label="Page navigation example">
+              <pagination-controls (pageChange)="p = $event"></pagination-controls>
+
+
+
+            </nav>
+          </div>
+        </div>
+
+        <div class="latest_product_inner row col-md-12" >
+
+
+          <div class="col-lg-3 col-md-3 col-sm-6" *ngFor="let p of produit | paginate: { itemsPerPage: 8, currentPage: p }">
+            <div class="f_p_item">
+              <div class="f_p_img">
+                <img class="img-fluid" src="assets/img/product/{{p.image}}" alt="">
+                <div class="p_icon">
+                  <a href="#">
+                    <i class="lnr lnr-heart"></i>
+                  </a>
+                  <a href="#">
+                    <i class="lnr lnr-cart"></i>
+                  </a>
+                </div>
+              </div>
+              <a href="#">
+                <h4>{{p.nom}}</h4>
+              </a>
+              <h5>{{p.prix | currency:'USD'}}</h5>
+            </div>
+          </div>
+
+
+
+        </div>
+
+
+
+
+      </div>
+
+    </div>
+
+
+  </div>
+</section>
+<!--================End Category Product Area =================-->
+
+
+
+

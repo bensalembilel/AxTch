@@ -1,0 +1,45 @@
+<section class="cat_product_area section_gap" >
+    <div class="container-fluid">
+      <div class="row flex-row-reverse">
+        <div class="col-lg-12">
+          <div class="product_top_bar">
+            <div class="left_dorp">
+             <span style="    color: #000000; font-size: 14px;font-weight: 700;">
+              {{ title }}
+            </span> 
+              <span style="color: #999999; background: transparent; line-height: 30px;">
+              {{ section }}
+            </span>
+            </div>
+            <div class="right_page ml-auto">
+              <nav class="cat_page" aria-label="Page navigation example">
+                <pagination-controls (pageChange)="p = $event"></pagination-controls>
+  
+  
+  
+              </nav>
+            </div>
+          </div>
+  
+          <div class="latest_product_inner row col-md-12" 
+          *ngFor="let p of prodcut_list | paginate: { itemsPerPage: 4, currentPage: p };
+          let first = first  ; let e = even">
+              
+
+              
+                <div class="col-md-5" *ngIf="e" >
+                    <span *ngIf="first">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
+                    Facere fugit est architecto explicabo aliquam, labore inventore minima, officia maiores quasi, 
+                    quis expedita ducimus distinctio repellendus blanditiis doloremque ad praesentium! Quia?
+                    </span>
+                </div>
+                <div class="row col-md-7"  >
+                    <img class="col-md-5 img-fluid mr-5 media" src="assets/img/product/{{p.image}}" alt="">
+                <div class="col-md-5" style="position: relative; top: 50%;">   Lorem ipsum dolor sit </div>
+                </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
