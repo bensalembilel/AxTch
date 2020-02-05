@@ -2,18 +2,11 @@
 <div class="container-fluid">
   <div class="row">
     <span *ngFor="let card of cards" class="col-md-6 zoom-out ">
-      <span  class="carde-text">{{ card.title }}</span>
-      <span style="font-size: 12px;font-weight: 700;z-index: 1;
-      position: absolute;
-      left: 6em;
-      top: 5em;">{{ card.section | uppercase}}</span>
+      <span  class="carde-bold-text">{{ card.title }}</span>
+      <span class="carde-shop-text">{{ card.section | uppercase}}</span>
       <img src="assets/img/cat/{{ card.image }}" alt="" class="col-md-12 ">
 
-      <span style=" color: #000000; font-size: 14px;font-weight: 700;z-index: 1;
-      position: absolute;
-      right: 5em;
-      bottom: 3em;
-      border-bottom: solid 1px black;">{{ card.description }}</span>
+      <span class="shopping">{{ card.description }}</span>
     </span>
 </div>
 </div>

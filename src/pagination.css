@@ -35,3 +35,8 @@
     content: '';
     display: none;
   }
+  .my-pagination /deep/ .ngx-pagination  a::after {
+    content: '';
+    display: none;
+  }
+  
