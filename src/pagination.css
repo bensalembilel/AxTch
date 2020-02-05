@@ -1,0 +1,37 @@
+/* pagination style  */
+
+.my-pagination /deep/ .ngx-pagination .small-screen {
+    display: none;
+  }
+  .my-pagination /deep/ .ngx-pagination li>.small-screen::after {
+    content: ' | ';
+  }
+
+  .my-pagination /deep/ .ngx-pagination li  {
+    display: none;
+  }
+  
+  .my-pagination /deep/ .ngx-pagination .pagination-previous   {
+    display: inline-block;
+  }
+  .my-pagination /deep/ .ngx-pagination .pagination-next  {
+    display: inline-block;
+  }
+  .my-pagination /deep/ .ngx-pagination   {
+    display: flex;
+    justify-content: space-between;
+    padding: 0em;
+  }
+  .my-pagination /deep/  .ngx-pagination::before, .my-pagination /deep/ .ngx-pagination::after {
+    content: ' ';
+    display: none;
+  }
+
+  .my-pagination /deep/ .ngx-pagination .pagination-previous a::before,.my-pagination /deep/  .ngx-pagination .pagination-previous.disabled::before {
+    content: '';
+    display: none;
+  }
+  .my-pagination /deep/ .ngx-pagination .pagination-next a::after,.my-pagination /deep/  .ngx-pagination .pagination-next.disabled::after {
+    content: '';
+    display: none;
+  }

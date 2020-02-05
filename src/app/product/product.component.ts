@@ -4,7 +4,7 @@ import {ProduitService} from '../service/produit.service';
 @Component({
   selector: 'app-product',
   templateUrl: './product.component.html',
-  styleUrls: ['./product.component.css']
+  styleUrls: ['./product.component.scss']
 })
 export class ProductComponent implements OnInit {
   produit ;
@@ -15,6 +15,5 @@ export class ProductComponent implements OnInit {
 
   ngOnInit() {
     this.produit = this.produitservice.ListeProduit();
-
   }
 }

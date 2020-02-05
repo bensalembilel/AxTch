@@ -4,13 +4,27 @@
   <nav class=" ">
       <div class="">
         <div class="page-header  row col-md-12 ">
-          <div class="col-md-1 icon th-list text-align-center"></div>
-          <div class="col-md-1 icon search text-align-center"></div>
-          <div class="col-md-8 icon logo text-align-center"></div>
-          <div class="col-md-1 link text-align-center">Account</div>
-          <div class="col-md-1 icon notification text-align-center"><span class="badge">4</span></div>
+          <div class="col-md-3 col-sm-4 col-4">
+            <div class="icon th-list text-align-center" (click)="openNav()"></div>
+            <div class="icon search text-align-center"></div>
+          </div>
+          <div class="col-md-6 col-sm-4 col-4 icon logo text-align-center"></div>
+          <div class="col-md-3 col-sm-4 col-4" style="text-align: right;">
+            <div class=" link text-align-center">Account</div>
+            <div class=" icon notification text-align-center"><span class="badge">4</span></div>
+          </div>
       </div>
       </div>
     </nav>
+    <div id="myNav" class="overlay">
+      <a href="javascript:void(0)" class="closebtn" (click)="closeNav()">&times;</a>
+      <div class="overlay-content">
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Clients</a>
+        <a href="#">Contact</a>
+      </div>
+    </div>
+    
 </header>
 <!--================Header Menu =================-->
