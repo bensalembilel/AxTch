@@ -5,23 +5,21 @@ import { AppComponent } from './app.component';
 import {HttpClientModule} from '@angular/common/http';
 import { HomeComponent } from './home/home.component';
 import {ListeProduitsComponent} from './liste-produits/liste-produits.component';
-import {PopinComponent} from './popin/popin.component';
 import {NgxPaginationModule} from 'ngx-pagination';
-import { HeaderComponent } from './header/header.component';
-import { FooterComponent } from './footer/footer.component';
-import { MainComponent } from './main/main.component';
+import { HeaderComponent } from './common/component/header/header.component';
+import { FooterComponent } from './common/component/footer/footer.component';
+import { MainComponent } from './common/component/main/main.component';
 import { ProductComponent } from './product/product.component';
 import { CardComponent } from './card/card.component';
-import { NewsletterComponent } from './newsletter/newsletter.component';
+import { NewsletterComponent } from './common/component/newsletter/newsletter.component';
 import { CollectionComponent } from './collection/collection.component';
-import { PopUpComponent } from './pop-up/pop-up.component';
+import { PopUpComponent } from './common/component/pop-up/pop-up.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     ListeProduitsComponent,
-    PopinComponent,
     HeaderComponent,
     FooterComponent,
     MainComponent,
