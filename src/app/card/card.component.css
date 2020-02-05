@@ -12,3 +12,18 @@
 .container {
   padding: 2px 16px;
 }
+
+.zoom-out:hover img{
+  -webkit-transform: scale(1.05);
+  transform: scale(1.05);
+}
+
+.carde-text {
+  color: #000000; 
+  font-size: 14px;
+  font-weight: 700;
+  z-index: 1;
+  position: absolute;
+  left: 5em;
+  top: 3em;
+}

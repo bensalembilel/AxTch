@@ -1,4 +1,9 @@
 /* You can add global styles to this file, and also import other style files */
+
+@import url("https://fonts.googleapis.com/css?family=Muli:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap");
+body{
+  font-family: "Muli", sans-serif;
+}
 .section_gap {
   padding: 120px 0px;
   overflow: hidden; }
@@ -40,14 +45,14 @@
       padding-left: 20px; }
       .product_top_bar .left_dorp .sorting span {
         font-size: 14px;
-        font-family: "Roboto", sans-serif;
+        font-family: "Muli", sans-serif;
         color: #555555; }
       .product_top_bar .left_dorp .sorting .list {
         width: 100%;
         border-radius: 0px; }
         .product_top_bar .left_dorp .sorting .list li {
           font-size: 14px;
-          font-family: "Roboto", sans-serif;
+          font-family: "Muli", sans-serif;
           color: #555555; }
       .product_top_bar .left_dorp .sorting:after {
         content: "\f0d7";
@@ -69,14 +74,14 @@
       margin-left: 10px; }
       .product_top_bar .left_dorp .show span {
         font-size: 14px;
-        font-family: "Roboto", sans-serif;
+        font-family: "Muli", sans-serif;
         color: #555555; }
       .product_top_bar .left_dorp .show .list {
         width: 100%;
         border-radius: 0px; }
         .product_top_bar .left_dorp .show .list li {
           font-size: 14px;
-          font-family: "Roboto", sans-serif;
+          font-family: "Muli", sans-serif;
           color: #555555; }
       .product_top_bar .left_dorp .show:after {
         content: "\f0d7";
@@ -104,7 +109,7 @@
             font-size: 14px;
             color: #222222;
             font-weight: normal;
-            font-family: "Roboto", sans-serif; }
+            font-family: "Muli", sans-serif; }
           .cat_page .pagination li.blank a {
             background: transparent;
             color: #cccccc;
@@ -117,3 +122,37 @@
 .latest_product_inner {
   margin-bottom: -35px;
  }
+
+
+
+/* Feature Product Area css
+============================================================================================ */
+  .shop{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    transform: scale(0) translateY(-50%);
+    transition:all .3s ease;
+    text-align:center;
+    bottom: 6%;
+    right:0%;
+  }
+  .shop a{
+    font-size:18px;
+    font-weight: 800;
+    padding: 40px 2px;
+    border-radius: 50%;
+    background:#fff;
+    transition: all .3s ease;
+    text-transform: uppercase;
+    text-decoration:none;
+  }
+  .product:hover .shop{
+    transform:scale(1) translateY(-50%);
+  }
+  .product .shop:hover a {
+    color: #fff;
+    background: #58cbe6;
+}
+
