@@ -11,7 +11,7 @@ export class ProduitService {
 
   ListeProduit() {
     return  [
-      {description: 'Lights' , nom : 'Hurricane Floor', prix : '500' , image: 'p-1.jpg'},
+      {description: 'Lights' , nom : 'Hurica Floor', prix : '500' , image: 'p-1.jpg'},
       {description: 'Twig' , nom : 'Damien Black', prix : '610' , image: 'p-2.jpg'},
       {description: 'Glitter' , nom : 'Eclipse 3', prix : '456' , image: 'p-3.jpg'},
       {description: 'Antique' , nom : 'Endon Rome', prix : '654' , image: 'p-4.jpg'},

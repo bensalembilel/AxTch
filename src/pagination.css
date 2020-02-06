@@ -1,12 +1,8 @@
 /* pagination style  */
 
-.my-pagination /deep/ .ngx-pagination .small-screen {
+/* .my-pagination /deep/ .ngx-pagination .small-screen {
     display: none;
-  }
-  .my-pagination /deep/ .ngx-pagination li>.small-screen::after {
-    content: ' | ';
-  }
-
+  } */
   .my-pagination /deep/ .ngx-pagination li  {
     display: none;
   }
@@ -44,4 +40,21 @@
     .my-pagination /deep/  .ngx-pagination.responsive .small-screen {
     display: none;
 }
+}
+
+.pagination-reverse {
+  display: flex;
+  flex-direction: column-reverse;
+}
+.pagination-reverse nav{
+  position: relative;
+  bottom: -30px;
+}
+.pagination-reverse .my-pagination /deep/ .ngx-pagination .small-screen {
+  display: initial;
+}
+.pagination-reverse .my-pagination /deep/ .ngx-pagination   {
+  display: flex;
+  justify-content: space-between;
+  padding: 0em;
 }

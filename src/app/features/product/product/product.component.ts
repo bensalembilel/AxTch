@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 import {ProduitService} from '../../../common/service/produit.service';
 
 @Component({
@@ -8,8 +8,10 @@ import {ProduitService} from '../../../common/service/produit.service';
 })
 export class ProductComponent implements OnInit {
   produit ;
-  title = 'Popular';
-  section = 'shop';
+  @Input() title: string ;
+  @Input() section: string ;
+  @Input() reversPagination: string ;
+  // @Input() paginationClass: string = 'my-pagination';
 
   constructor(private produitservice: ProduitService) { }
 
