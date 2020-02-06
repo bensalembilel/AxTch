@@ -1,5 +1,5 @@
 <section class="section_gap" >
-<div class="wrapper">
+<div class="slider_warpper">
   <input checked type="radio" name="slider" id="slide1" />
   <input type="radio" name="slider" id="slide2" />
   <input type="radio" name="slider" id="slide3" />
@@ -10,7 +10,8 @@
     <div class="inner">
       <article *ngFor="let item of list">
         <div class="info bottom-right">
-          <h3>{{ item.title }}</h3>
+          <h4>{{ item.description }}</h4>
+          <h1>{{ item.title }}</h1>
         </div>
         <img
           src="assets/img/slider/{{ item.img }}"
@@ -21,13 +22,13 @@
   </div>
   <!-- .slider-wrapper -->
 
-  <div class="slider-prev-next-control">
+  <!-- <div class="slider-prev-next-control">
     <label for="slide1"></label>
     <label for="slide2"></label>
     <label for="slide3"></label>
     <label for="slide4"></label>
     <label for="slide5"></label>
-  </div>
+  </div> -->
   <!-- .slider-prev-next-control -->
 
   <div class="slider-dot-control">
@@ -36,6 +37,16 @@
     <label for="slide3"></label>
     <label for="slide4"></label>
     <label for="slide5"></label>
+  </div>
+
+  <div class="slider-menu-control  ">
+    <h1>Shop</h1>
+    <div></div>
+    <label for="slide1">Home Furnishings</label>
+    <label for="slide2">Accessories</label>
+    <label for="slide3">sports</label>
+    <label for="slide4">clothing Wear</label>
+    <label for="slide5">IT</label>
   </div>
   <!-- .slider-dot-control -->
 </div>

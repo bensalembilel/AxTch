@@ -7,8 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CardComponent implements OnInit {
   cards = [
-    {title : 'Summer' , section : 'SHOP' , image : 'summer.jpg' , description : ' Summer shopping outfits' },
-    {title : 'Winter' , section : 'shop' , image : 'winter.jpg' , description : ' Winter shopping outfits'},
+    {title : 'Summer' , section : 'SHOP' , image : 'cc1.jpg' , description : ' Summer shopping outfits' },
+    {title : 'Winter' , section : 'shop' , image : 'cc2.jpg' , description : ' Winter shopping outfits'},
 ];
   constructor() { }
 

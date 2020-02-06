@@ -38,13 +38,14 @@
         padding: 46px 7px;
         border-radius: 50%;
         background:#fff;
+        color:"#aaa";
         transition: all .3s ease;
         text-transform: uppercase;
         text-decoration:none;
       }
     .shop:hover a {
-        color: #fff;
-        background: #58cbe6;
+        color: #fff !important;
+        background: #aaa;
     }
     .img-fluid{
       width: 100%;
@@ -54,6 +55,9 @@
 } 
   .product:hover .shop{
     transform:scale(1) translateY(-50%);
+    a{
+        color: #aaa;
+    }
   }
 
  

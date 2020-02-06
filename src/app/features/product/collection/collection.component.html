@@ -28,15 +28,26 @@
 
               
                 <div class="col-md-5" *ngIf="e" >
-                    <span *ngIf="first">
+                    <span *ngIf="first" >
+                      <div class="pr-5">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                    Facere fugit est architecto explicabo aliquam, labore inventore minima, officia maiores quasi, 
-                    quis expedita ducimus distinctio repellendus blanditiis doloremque ad praesentium! Quia?
+                        Facere fugit est architecto explicabo aliquam, labore inventore minima, officia maiores quasi, 
+                        quis expedita ducimus ?
+                        <br>
+                        <span class="link mt-4">See all collections</span>
+                      </div>
                     </span>
                 </div>
                 <div class="row col-md-7"  >
                     <img class="col-md-5 img-fluid mr-5 media" src="assets/img/product/{{p.image}}" alt="">
-                <div class="col-md-5" style="position: relative; top: 50%;">   Lorem ipsum dolor sit </div>
+                <div class="col-md-5 description" >    
+                    <span class="shop-text">
+                      {{ title }}
+                  </span>
+                  <span class="bold-text">
+                    {{p.nom}}
+                  </span>
+                   </div>
                 </div>
           </div>
         </div>

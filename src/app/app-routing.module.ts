@@ -5,19 +5,6 @@ import {ProductModule} from './features/product/product.module';
 
 
 const routes: Routes = [
-  // {
-  //   path: '',
-  //   loadChildren: '/features/product/product.module#ProductModule'
-  //  },
-  // {
-  //   path: '',
-  //   component : HomeComponent , children: [
-  //     {path : 'listeProduits', component : ListeProduitsComponent},
-
-  //   ]
-  // },
-  // { path: 'list', component: ListeProduitsComponent },
-
 ];
 
 @NgModule({
