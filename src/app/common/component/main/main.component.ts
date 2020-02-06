@@ -3,15 +3,15 @@ import { Component, OnInit } from '@angular/core';
 @Component({
   selector: 'app-main',
   templateUrl: './main.component.html',
-  styleUrls: ['./main.component.css']
+  styleUrls: ['./main.component.scss']
 })
 export class MainComponent implements OnInit {
  list: any[] = [
-   {id: 1 , img: '1.jpg', title : 'Malacca', description: ''},
-   {id: 2 , img: '2.jpg', title : 'Cameron Highland', description: ''},
-   {id: 3 , img: '3.jpg', title : 'New Delhi', description: ''},
-   {id: 4 , img: '4.jpg', title : 'Ladakh', description: ''},
-   {id: 5 , img: '6.jpg', title : 'Nubra Valley', description: ''},
+   {id: 1 , img: '70-6.jpg', title : 'Malacca', description: 'Limied edition'},
+   {id: 2 , img: '70-10.jpg', title : 'Highland', description: 'Our decoration'},
+   {id: 3 , img: '70-11.jpg', title : 'New Dlhi', description: 'Our style'},
+   {id: 4 , img: '70-8.jpg', title : 'Ladakh', description: 'Limied edition'},
+   {id: 5 , img: '7-9.jpg', title : 'Nubra', description: 'Limied edition'},
 ];
   constructor() { }
 

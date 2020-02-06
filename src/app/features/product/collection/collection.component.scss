@@ -1,0 +1,19 @@
+.description{
+    position: relative; 
+    top: 50%;
+    .shop-text{
+        margin-left: 0;
+        display: block;
+    }
+    .bold-text {
+        font-weight: 700;
+    }
+}
+.link{
+    display: inline-block;
+    color: #000000;
+    font-size: 18px;
+    font-weight: 700;
+    border-bottom: solid 1px black;
+    cursor: pointer;
+}

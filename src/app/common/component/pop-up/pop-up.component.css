@@ -8,3 +8,13 @@ img{
     border-bottom: solid 2px black;
     border-radius: 3px;
 }
+@media only screen and (max-width: 991px) {
+    .float-right{
+        position: relative;
+        bottom: -50px;
+    }
+    .btn{
+       font-size: 0.9em;
+       padding: .2rem .3rem;
+    }
+  }

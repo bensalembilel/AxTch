@@ -11,37 +11,34 @@ export class ProduitService {
 
   ListeProduit() {
     return  [
-      {description: 'test' , nom : 'ffff', prix : '500' , image: 'f-p-1.jpg'},
-      {description: 'test' , nom : 'gdsg', prix : '610' , image: 'f-p-2.jpg'},
-      {description: 'test' , nom : 'sdf', prix : '456' , image: 'f-p-3.jpg'},
-      {description: 'test' , nom : 'ffdsfgff', prix : '654' , image: 'f-p-4.jpg'},
-      {description: 'test' , nom : 'fdfb', prix : '679' , image: 'f-p-5.jpg'},
-      {description: 'test' , nom : 'fffvbgfxv ff', prix : '214' , image: 'f-p-1.jpg'},
-      {description: 'test' , nom : 'ytey', prix : '745' , image: 'f-p-2.jpg'},
-      {description: 'test' , nom : 'azrfg', prix : '887' , image: 'f-p-3.jpg'},
-      {description: 'test' , nom : 'hjk', prix : '975' , image: 'f-p-4.jpg'},
-      {description: 'test' , nom : 'aflj', prix : '865' , image: 'f-p-5.jpg'},
-      {description: 'test' , nom : 'dfvgb', prix : '312' , image: 'f-p-1.jpg'},
-      {description: 'test' , nom : 'fpoou', prix : '633' , image: 'f-p-2.jpg'},
-      {description: 'test' , nom : 'wxcvv', prix : '122' , image: 'f-p-3.jpg'},
+      {description: 'Lights' , nom : 'Hurricane Floor', prix : '500' , image: 'p-1.jpg'},
+      {description: 'Twig' , nom : 'Damien Black', prix : '610' , image: 'p-2.jpg'},
+      {description: 'Glitter' , nom : 'Eclipse 3', prix : '456' , image: 'p-3.jpg'},
+      {description: 'Antique' , nom : 'Endon Rome', prix : '654' , image: 'p-4.jpg'},
+      {description: 'Twig' , nom : 'Sphere 5', prix : '679' , image: 'p-5.jpg'},
+      {description: 'Brass' , nom : 'Black Arc ff', prix : '214' , image: 'p-6.jpg'},
+      {description: 'Lever' , nom : 'Seychelles', prix : '745' , image: 'p-7.jpg'},
+      {description: 'Arm' , nom : 'Juba Cream', prix : '887' , image: 'p-8.jpg'},
+      {description: 'Twig' , nom : 'Jodie', prix : '975' , image: 'p-9.jpg'},
+      {description: 'Lights' , nom : 'Fuller', prix : '865' , image: 'p-10.jpg'},
+      {description: 'Antique' , nom : 'Apollo', prix : '312' , image: 'p-1.jpg'},
+      {description: 'Glitter' , nom : 'fpoou', prix : '633' , image: 'p-2.jpg'},
+      {description: 'Twig' , nom : 'Silver ', prix : '122' , image: 'p-3.jpg'},
   ];
   }
 
   ListCollection() {
     return  [
-      {nom : 'ffff', prix : '500' , image: 'f-p-1.jpg'},
-      {nom : 'gdsg', prix : '610' , image: 'f-p-2.jpg'},
-      {nom : 'sdf', prix : '456' , image: 'f-p-3.jpg'},
-      {nom : 'ffdsfgff', prix : '654' , image: 'f-p-4.jpg'},
-      {nom : 'fdfb', prix : '679' , image: 'f-p-5.jpg'},
-      {nom : 'fffvbgfxv ff', prix : '214' , image: 'f-p-1.jpg'},
-      {nom : 'ytey', prix : '745' , image: 'f-p-2.jpg'},
-      {nom : 'azrfg', prix : '887' , image: 'f-p-3.jpg'},
-      {nom : 'hjk', prix : '975' , image: 'f-p-4.jpg'},
-      {nom : 'aflj', prix : '865' , image: 'f-p-5.jpg'},
-      {nom : 'dfvgb', prix : '312' , image: 'f-p-1.jpg'},
-      {nom : 'fpoou', prix : '633' , image: 'f-p-2.jpg'},
-      {nom : 'wxcvv', prix : '122' , image: 'f-p-3.jpg'},
+      {nom : 'Antique Brass Leverr', prix : '500' , image: 'p-1.jpg'},
+      {nom : 'Marble Glass Chrome', prix : '610' , image: 'p-2.jpg'},
+      {nom : 'Jandia Wooden Tripod', prix : '456' , image: 'p-3.jpg'},
+      {nom : 'Rose Lit Twig Lights', prix : '654' , image: 'p-4.jpg'},
+      {nom : 'Manila Moroccan igTw', prix : '679' , image: 'p-5.jpg'},
+      {nom : 'Bertie Sausage Dog', prix : '214' , image: 'p-6.jpg'},
+      {nom : 'Grey Honey Saffron Elephant', prix : '745' , image: 'p-7.jpg'},
+      {nom : 'Global Rustic Grey ', prix : '887' , image: 'p-8.jpg'},
+      {nom : 'Wax Lyrical Egyptian', prix : '975' , image: 'p-9.jpg'},
+      {nom : 'Hygge Soft Suede Multi Wick ', prix : '865' , image: 'p-10.jpg'},
   ];
   }
 

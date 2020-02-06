@@ -40,3 +40,8 @@
     display: none;
   }
   
+  @media screen and (max-width: 601px){
+    .my-pagination /deep/  .ngx-pagination.responsive .small-screen {
+    display: none;
+}
+}
