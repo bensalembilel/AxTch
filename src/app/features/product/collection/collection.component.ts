@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import {ProduitService} from '../common/service/produit.service';
+import {ProduitService} from '../../../common/service/produit.service';
 
 
 @Component({
@@ -12,7 +12,7 @@ export class CollectionComponent implements OnInit {
   constructor(private produitservice: ProduitService) { }
   title = 'collection';
   section = 'Shop';
-  prodcut_list: any[];
+  prodcut_list : any[];
   ngOnInit() {
     this.prodcut_list = this.produitservice.ListCollection();
   }

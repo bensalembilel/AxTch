@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import {ProduitService} from '../common/service/produit.service';
+import {ProduitService} from '../../../common/service/produit.service';
 
 @Component({
   selector: 'app-product',
@@ -11,7 +11,7 @@ export class ProductComponent implements OnInit {
   title = 'Popular';
   section = 'shop';
 
-  constructor(private produitservice : ProduitService) { }
+  constructor(private produitservice: ProduitService) { }
 
   ngOnInit() {
     this.produit = this.produitservice.ListeProduit();
