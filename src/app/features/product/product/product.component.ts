@@ -7,6 +7,7 @@ import {ProduitService} from '../../../common/service/produit.service';
   styleUrls: ['./product.component.scss']
 })
 export class ProductComponent implements OnInit {
+  p: number = 1;
   produit ;
   @Input() title: string ;
   @Input() section: string ;
