@@ -10,6 +10,7 @@ import {ProduitService} from '../../../common/service/produit.service';
 export class CollectionComponent implements OnInit {
 
   constructor(private produitservice: ProduitService) { }
+  p: number = 1;
   title = 'collection';
   section = 'Shop';
   prodcut_list : any[];

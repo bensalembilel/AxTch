@@ -19,7 +19,7 @@
           </div>
   
           <div class="latest_product_inner row col-md-12" 
-          *ngFor="let p of prodcut_list | paginate: { itemsPerPage: 4, currentPage: p };
+          *ngFor="let prod of prodcut_list | paginate: { itemsPerPage: 4, currentPage: p };
           let first = first  ; let e = even">
               
 
@@ -36,13 +36,13 @@
                     </span>
                 </div>
                 <div class="row col-md-7"  >
-                    <img class="col-md-5 img-fluid mr-5 media" src="assets/img/product/{{p.image}}" alt="">
+                    <img class="col-md-5 img-fluid mr-5 media" src="assets/img/product/{{prod.image}}" alt="">
                 <div class="col-md-5 description" >    
                     <span class="shop-text">
                       {{ title }}
                   </span>
                   <span class="bold-text">
-                    {{p.nom}}
+                    {{prod.nom}}
                   </span>
                    </div>
                 </div>
