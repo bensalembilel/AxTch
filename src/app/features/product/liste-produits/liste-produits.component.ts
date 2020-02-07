@@ -5,7 +5,7 @@ import {first} from 'rxjs/internal/operators';
 @Component({
   selector: 'app-liste-produits',
   templateUrl: './liste-produits.component.html',
-  styleUrls: ['./liste-produits.component.css']
+  styleUrls: ['./liste-produits.component.scss']
 })
 export class ListeProduitsComponent implements OnInit {
   produit ;

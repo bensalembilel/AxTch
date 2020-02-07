@@ -1,35 +1,5 @@
-.my-pagination /deep/ .ngx-pagination .small-screen {
-    display: inline-block;
-  }
-  /* .my-pagination /deep/ .ngx-pagination .current {
-    display: none;
-  } */
-  .my-pagination /deep/ .ngx-pagination li  {
-    display: none;
-  }
-  .my-pagination /deep/ .ngx-pagination .pagination-previous   {
-    display: inline-block;
-  }
-  .my-pagination /deep/ .ngx-pagination .pagination-next  {
-    display: inline-block;
-  }
-  .my-pagination /deep/ .ngx-pagination   {
-    display: flex;
-    justify-content: space-between;
-    padding: 0em;
-  }
-  .my-pagination /deep/  .ngx-pagination::before, .my-pagination /deep/ .ngx-pagination::after {
-    content: ' ';
-    display: none;
-  }
-
-  .my-pagination /deep/ .ngx-pagination .pagination-previous a::before,.my-pagination /deep/  .ngx-pagination .pagination-previous.disabled::before {
-    content: '';
-    display: none;
-  }
-  .my-pagination /deep/ .ngx-pagination .pagination-next a::after,.my-pagination /deep/  .ngx-pagination .pagination-next.disabled::after {
-    content: '';
-    display: none;
+  .btn{
+    border-radius: 0;
   }
   .page-header {
     padding: 13px 90px;
@@ -63,8 +33,4 @@ background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.
     margin: 0px 8px 0px 8px;
 }
 
-.product_top_bar{
-    display: block;
-    margin-top: 50px;
-    text-align: center;
-}
+
